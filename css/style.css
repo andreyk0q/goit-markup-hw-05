@@ -772,14 +772,14 @@ section {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
+    display: inline-block;
     align-items: center;
-    gap: 8px;
 }
 
 .checkbox-custom {
     width: 16px;
     height: 16px;
+    margin-right: 8px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     display: inline-flex;
